@@ -1,6 +1,6 @@
 .place {
 	margin: 0 auto;
-	padding: 92px 0 0;
+	padding: 0;
 	display: grid;
 	grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
 	gap: 40px;
@@ -8,11 +8,15 @@
 
 }
 
+.place:nth-child(n+2) {
+	padding-top: 80px;
+}
+
 @media screen and (max-width: 1024px) {
 	.place {
 		grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
 		gap: 32px;
-		padding: 92px 48px 0;
+		padding: 0 48px 0;
 	}
 
 	.place:nth-child(n+2) {
@@ -23,7 +27,7 @@
 @media screen and (max-width: 768px) {
 	.place {
 		grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
-		padding: 88px 24px 0;
+		padding: 0 24px 0;
 		gap: 28px;
 	}
 
@@ -34,9 +38,8 @@
 
 @media screen and (max-width: 665px) {
 	.place {
-		grid-template-columns: minmax(320px, 600px);
-		gap: 32px;
-		padding: 64px 40px 0;
+		grid-template-columns: minmax(320px, 665px);
+		padding: 0 10px 0;
 	}
 
 	.place:nth-child(n+2) {
@@ -46,23 +49,26 @@
 
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 335px) {
 	.place {
-		padding: 64px 10px 0;
+		grid-template-columns: minmax(300px, 335px);
+		padding: 0 10px 0;
+	}
+
+	.place:nth-child(n+2) {
+		padding-top: 50px;
 	}
 
 }
+
 
 @media screen and (max-width: 320px) {
 	.place {
+		padding: 0;
 		grid-template-columns: 320px;
-		gap: 32px;
-		padding: 64px 0 0;
 	}
 
 	.place:nth-child(n+2) {
-		gap: 32px;
 		padding-top: 50px;
 	}
-
 }

@@ -4,6 +4,20 @@
 	padding: 0;
 }
 
+@media screen and (max-width: 665px) {
+	.place__link-area {
+		justify-self: center;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.place__link-area {
+		justify-self: baseline;
+		text-align: start;
+	}
+}
+
 @media screen and (max-width: 320px) {
 	.place__link-area {
 		padding-left: 16px;
