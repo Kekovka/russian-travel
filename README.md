@@ -4,8 +4,8 @@
 
 **Github pages**
 
-* [Ссылка github pages](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка github pages](https://kekovka.github.io/russian-travel/index.html)
 
-**Картинки**
+**Студент**
 
 Проект выполнен студентом: Чеколаев Артем Владимирович
