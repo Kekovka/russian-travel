@@ -1,7 +1,7 @@
 .cover__background {
   background-image: url("../../../images/Cover_background.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   min-height: 740px;
   display: flex;
@@ -11,6 +11,7 @@
   position: relative;
   z-index: 1;
   text-decoration: none;
+
 }
 
 .cover__background::before {
