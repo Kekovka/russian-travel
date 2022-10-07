@@ -1,0 +1,16 @@
+.place__text {
+	display: grid;
+	gap: 26px 0;
+	grid-template-columns: minmax(288px, 484px);
+	grid-template-rows: max-content;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+	.place__text {
+		grid-template-columns: 288px;
+		padding: 0 16px 0;
+		gap: 25px;
+	}
+}
