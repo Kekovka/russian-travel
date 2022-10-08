@@ -9,7 +9,8 @@
 
 @media screen and (max-width: 1024px) {
 	.lead {
-		padding: 48px 0 48px;
+		max-width: 928px;
+		padding: 48px 0 0;
 	}
 }
 
